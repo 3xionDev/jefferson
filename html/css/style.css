@@ -18,12 +18,14 @@ body {
     align-items: center;
     margin: 0.5%;
     border-radius: 20px;
+    font-family: "ahrefs";
     /* flex-direction: column; */
 }
 
 .header-text {
     display: flex;
     height: auto;
+    font-family: "ahrefs";
 }
 
 .content-boxes {
@@ -38,11 +40,13 @@ body {
     align-items: center; 
     border-radius: 20px;
     text-align: center;
+    font-family: "ahrefs";
 }
 
 .info-content {
     font-size: 200%;
     margin: 1%;
+    font-family: "ahrefs";
 }
 
 .content-buttons {
@@ -59,6 +63,7 @@ body {
     border-radius: 20px;
     text-align: center;
     transition-duration: 0.4s;
+    font-family: "ahrefs";
 }
 
 .content-buttons:hover {
@@ -70,6 +75,7 @@ body {
 .button-content {
     font-size: 200%;
     margin: 1%;
+    font-family: "ahrefs";
 }
 
 .image-content-box {
@@ -91,4 +97,13 @@ body {
     height: auto;
     border-radius: 10px;
     margin: 1%;
+}
+
+@font-face {
+  font-family: 'ahrefs'; /* Name you choose to use in CSS */
+  src: url('fonts/ahrefs_regular.woff2') format('woff2'),
+       url('fonts/ahrefs_regular.ttf') format('truetype'); /* Fallback format */
+  font-weight: normal; /* Define the weight/style this file represents */
+  font-style: normal;
+  font-display: swap; /* Helps prevent render-blocking during load */
 }
