@@ -51,7 +51,7 @@ body {
 
 .content-buttons {
     display: flex;
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 0.5%;
     cursor: pointer;
@@ -101,9 +101,25 @@ body {
 
 @font-face {
   font-family: 'ahrefs'; /* Name you choose to use in CSS */
-  src: url('fonts/ahrefs_regular.woff2') format('woff2'),
-       url('fonts/ahrefs_regular.ttf') format('truetype'); /* Fallback format */
+  src: url('font/ahrefs_regular.woff2') format('woff2'),
+       url('font/ahrefs_regular.ttf') format('truetype'); /* Fallback format */
   font-weight: normal; /* Define the weight/style this file represents */
   font-style: normal;
   font-display: swap; /* Helps prevent render-blocking during load */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center; 
+}
+
+#cite {
+    width: 90%;
+    height: auto;
 }
